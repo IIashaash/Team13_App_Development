@@ -1,7 +1,7 @@
- ###  HELPING HANDS
+###  HELPING HANDS
  ## SE Project by team 13 
 
-Description:
+* Description:
 			The app is designed to provide a platform for redistribution of excess food and leftovers in households and different functions. Once the user has signed up successfully, he/she can donate food by informing the concerned team through the app, which automatically recognizes the location. Generous people can also donate money through any kind of upi used and we keep a track of each and every activity of the user with the help of a database.
 
 Splash Screen:
