@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.Print_details">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="671dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="675dp"
+            android:background="#2196F3"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="595dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/name__"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="DONOR NAME"
+                        android:textColor="#181919"
+
+
+                        android:textSize="20dp" />
+
+
+                    <TextView
+                        android:id="@+id/name_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="DONOR NAME"
+                        android:textColor="#F1F6F6"
+
+
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/fooditem__"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="FOOD ITEM"
+                        android:textColor="#0E0E0E"
+
+
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/fooditem_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="FOOD ITEM"
+                        android:textColor="#F1F6F6"
+
+
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/quantity__"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="QUANTITY"
+                        android:textColor="#1B1C1C"
+                        android:textSize="20dp"
+
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/quantity_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="QUANTITY"
+                        android:textColor="#F1F6F6"
+                        android:textSize="18dp"
+
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/date__"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="DATE OF PREPARATION"
+                        android:textColor="#1B1C1C"
+                        android:textSize="20dp"
+
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/date_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="DATE OF PREPARATION"
+                        android:textColor="#F1F6F6"
+                        android:textSize="18dp"
+
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/address__"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="ADDRESS"
+                        android:textColor="#1C1E1E"
+                        android:textSize="20dp"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/address_"
+                        android:layout_width="match_parent"
+                        android:layout_height="203dp"
+                        android:fontFamily="@font/brandongrotesquebolditalic58a8a48221563"
+                        android:text="ADDRESS"
+                        android:textColor="#F1F6F6"
+                        android:textSize="16dp"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/bb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:background="@color/colorAccent"
+
+                        android:text="NEXT"
+                        android:textColor="#F1F6F6" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
